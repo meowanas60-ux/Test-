@@ -1,0 +1,15 @@
+{
+  "name": "ai-content-automation-hub",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Starter admin panel for multi-API AI video generation and automated video composition.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
